@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dragon Fly Hospital| Book Now</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="top-header">
+        <div class="top-left">
+          <span><i class="fa-solid fa-phone"></i> Emergency: 16452</span>
+
+          <span
+            ><i class="fa-solid fa-envelope"></i>
+            info@dragonflyhospital.com</span
+          >
+
+          <span><i class="fa-solid fa-clock"></i> Open 24/7</span>
+        </div>
+
+        <div class="top-right">
+          <a href="#" aria-label="Facebook"
+            ><i class="bx bxl-facebook-circle"></i
+          ></a>
+
+          <a href="#" aria-label="Instagram"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+
+          <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+
+          <a href="#" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
+
+          <a href="login.html" class="btn-login">Login</a>
+
+          <a href="signup.html" class="btn-signup">Sign Up</a>
+
+          <a href="booknow.html" class="btn-book active-book">
+            Book Appointment
+          </a>
+        </div>
+      </header>
+
+      <nav class="navbar">
+        <div class="logo">
+          <img src="images/logo.png" alt="DragonFly Hospital Logo" />
+
+          <h2>DragonFly Hospital</h2>
+        </div>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="about.html">About</a></li>
+
+          <li><a href="services.html">Services</a></li>
+
+          <li><a href="departments.html">Departments</a></li>
+
+          <li><a href="doctors.html">Doctors</a></li>
+
+          <li><a href="review.html">Reviews</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div id="menu-btn" class="fas fa-bars" onclick="toggleMenu()"></div>
+      </nav>
+      <section class="book-hero">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <h1>Book Your <span>Appointment</span></h1>
+
+          <p>
+            Experience world-class healthcare with our highly qualified doctors.
+            Choose your preferred specialist and schedule your visit in minutes.
+          </p>
+
+          <a href="#booking-form" class="btn hero-btn">
+            <i class="fa-solid fa-calendar-check"></i>
+            Book Now
+          </a>
+        </div>
+      </section>
+
+      <!--
+  Booking Section Starts
+-->
+      <section class="book-section">
+        <div class="book-container">
+          <div class="book-image">
+            <img src="images/booknow.jpg" alt="Doctor Booking" />
+          </div>
+
+          <form class="booking-form" id="booking-form" action="#" method="post">
+            <h2>Appointment Details</h2>
+
+            <p>Fill in your information and we'll contact you shortly.</p>
+
+            <div class="double">
+              <div class="input-box">
+                <i class="fa-solid fa-user"></i>
+
+                <input type="text" placeholder="Full Name" required />
+              </div>
+
+              <div class="input-box">
+                <i class="fa-solid fa-phone"></i>
+
+                <input type="tel" placeholder="Phone" required />
+              </div>
+            </div>
+
+            <div class="double">
+              <div class="input-box">
+                <i class="fa-solid fa-envelope"></i>
+
+                <input type="email" placeholder="Email" required />
+              </div>
+
+              <div class="input-box">
+                <i class="fa-solid fa-calendar"></i>
+
+                <input type="date" />
+              </div>
+            </div>
+
+            <div class="input-box">
+              <i class="fa-solid fa-hospital"></i>
+
+              <select required>
+                <option selected disabled>Select Department</option>
+
+                <option>Cardiology</option>
+
+                <option>Neurology</option>
+
+                <option>Pediatrics</option>
+
+                <option>Dental Care</option>
+
+                <option>Dermatology</option>
+
+                <option>Ophthalmology</option>
+              </select>
+            </div>
+
+            <div class="input-box">
+              <i class="fa-solid fa-user-doctor"></i>
+
+              <select required>
+                <option selected disabled>Select Doctor</option>
+
+                <option>Dr. John Albert</option>
+
+                <option>Dr. Ben Carson</option>
+
+                <option>Dr. Ellen Ochoa</option>
+
+                <option>Dr. Angela Davis</option>
+
+                <option>Dr. Paul Farmer</option>
+              </select>
+            </div>
+
+            <div class="input-box textarea">
+              <i class="fa-solid fa-comment-medical"></i>
+
+              <textarea placeholder="Additional Notes" rows="6"></textarea>
+            </div>
+            <button type="submit" class="btn">
+              <i class="fa-solid fa-paper-plane"></i>
+              Confirm Appointment
+            </button>
+            <div class="success-message">
+              <i class="fa-solid fa-circle-check"></i>
+
+              Appointment request sent successfully. We'll contact you shortly.
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="available-doctors">
+        <h2 class="heading">Available <span>Doctors Today</span></h2>
+
+        <div class="available-container">
+          <div class="available-card">
+            <img src="images/doc11.png" alt="Doctor" />
+
+            <h3>Dr. John Albert</h3>
+
+            <span>Cardiology Specialist</span>
+
+            <p>15 Years Experience</p>
+
+            <a href="#booking-form" class="btn"> Book Now </a>
+          </div>
+
+          <div class="available-card">
+            <img src="images/doc9.jpeg" alt="Doctor" />
+
+            <h3>Dr. Angela Davis</h3>
+
+            <span>Neurology</span>
+
+            <p>12 Years Experience</p>
+
+            <a href="#booking-form" class="btn"> Book Now </a>
+          </div>
+          <div class="available-card">
+            <img src="images/doc5.jpeg" alt="Doctor" />
+
+            <h3>Dr. Michael Brown</h3>
+
+            <span>Cardiology</span>
+
+            <p>18 Years Experience</p>
+
+            <a href="#booking-form" class="btn"> Book Now </a>
+          </div>
+          <div class="available-card">
+            <img src="images/doc2.png" alt="Doctor" />
+
+            <h3>Dr. Paul Farmer</h3>
+
+            <span>Pediatrics</span>
+
+            <p>10 Years Experience</p>
+
+            <a href="#booking-form" class="btn"> Book Now </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="booking-process">
+        <h2 class="heading">Booking <span>Process</span></h2>
+
+        <div class="process-container">
+          <div class="process-box">
+            <div class="number">01</div>
+
+            <i class="fa-solid fa-file-medical"></i>
+
+            <h3>Fill Form</h3>
+
+            <p>Enter your personal information.</p>
+          </div>
+
+          <div class="process-box">
+            <div class="number">02</div>
+
+            <i class="fa-solid fa-user-doctor"></i>
+
+            <h3>Select Doctor</h3>
+
+            <p>Choose your preferred specialist.</p>
+          </div>
+
+          <div class="process-box">
+            <div class="number">03</div>
+
+            <i class="fa-solid fa-phone-volume"></i>
+
+            <h3>Confirmation</h3>
+
+            <p>We'll contact you immediately.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="advantages">
+        <h2 class="heading">
+          Why Patients
+          <span>Trust Us</span>
+        </h2>
+
+        <div class="adv-container">
+          <div class="adv-box">
+            <i class="fa-solid fa-user-doctor"></i>
+
+            <h3>120+ Doctors</h3>
+
+            <p>Highly qualified medical specialists.</p>
+          </div>
+
+          <div class="adv-box">
+            <i class="fa-solid fa-bed-pulse"></i>
+
+            <h3>500 Beds</h3>
+
+            <p>Advanced patient care facilities.</p>
+          </div>
+
+          <div class="adv-box">
+            <i class="fa-solid fa-ambulance"></i>
+
+            <h3>24/7 Emergency</h3>
+
+            <p>Emergency response all day.</p>
+          </div>
+
+          <div class="adv-box">
+            <i class="fa-solid fa-heart-pulse"></i>
+
+            <h3>95% Recovery</h3>
+
+            <p>Excellent treatment success rate.</p>
+          </div>
+
+          <div class="adv-box">
+            <i class="fa-solid fa-user-doctor"></i>
+
+            <h3>50+ Specialists</h3>
+
+            <p>Experienced doctors across all departments.</p>
+          </div>
+
+          <div class="adv-box">
+            <i class="fa-solid fa-calendar-check"></i>
+
+            <h3>Easy Booking</h3>
+
+            <p>Schedule your appointment in just a few minutes.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="booking-features">
+        <h2 class="heading">Why Choose <span>DragonFly</span></h2>
+
+        <div class="feature-container">
+          <div class="feature-box">
+            <i class="fa-solid fa-clock"></i>
+
+            <h3>24/7 Booking</h3>
+
+            <p>Book anytime.</p>
+          </div>
+
+          <div class="feature-box">
+            <i class="fa-solid fa-heart-pulse"></i>
+
+            <h3>Expert Doctors</h3>
+
+            <p>Highly experienced specialists.</p>
+          </div>
+
+          <div class="feature-box">
+            <i class="fa-solid fa-shield-heart"></i>
+
+            <h3>Safe Healthcare</h3>
+
+            <p>Your safety is our priority.</p>
+          </div>
+
+          <div class="feature-box">
+            <i class="fa-solid fa-hospital"></i>
+
+            <h3>Modern Facilities</h3>
+
+            <p>Advanced medical technology.</p>
+          </div>
+
+          <div class="feature-box">
+            <i class="fa-solid fa-ambulance"></i>
+
+            <h3>Emergency Care</h3>
+
+            <p>Emergency medical services available 24/7.</p>
+          </div>
+
+          <div class="feature-box">
+            <i class="fa-solid fa-microscope"></i>
+
+            <h3>Advanced Diagnostics</h3>
+
+            <p>Accurate testing with modern laboratory equipment.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="booking-counter">
+        <div class="counter-box">
+          <h2>25K+</h2>
+
+          <p>Appointments Booked</p>
+        </div>
+
+        <div class="counter-box">
+          <h2>120+</h2>
+
+          <p>Doctors</p>
+        </div>
+
+        <div class="counter-box">
+          <h2>35+</h2>
+
+          <p>Departments</p>
+        </div>
+
+        <div class="counter-box">
+          <h2>99%</h2>
+
+          <p>Patient Satisfaction</p>
+        </div>
+      </section>
+
+      <section class="patient-promise">
+        <h2>Your Health Comes First</h2>
+
+        <p>
+          DragonFly Hospital is committed to providing compassionate,
+          high-quality healthcare for every patient.
+        </p>
+
+        <a href="contact.html" class="btn"> Contact Us </a>
+      </section>
+
+      <!-- footer starts -->
+      <footer class="site-footer">
+        <div class="footer-container">
+          <div class="footer-col">
+            <h3>DragonFly Hospital</h3>
+            <p>
+              Providing high-quality healthcare, experienced doctors and
+              advanced medical technology, available around the clock for our
+              community.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="departments.html">Departments</a></li>
+              <li><a href="doctors.html">Doctors</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-location-dot"></i> 123 Main Street, Cairo,
+                Egypt
+              </li>
+              <li><i class="fa-solid fa-phone"></i> Emergency: 16452</li>
+              <li>
+                <i class="fa-solid fa-envelope"></i> info@dragonflyhospital.com
+              </li>
+              <li><i class="fa-solid fa-clock"></i> Open 24/7</li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Follow Us</h3>
+            <div class="footer-social">
+              <a href="#" aria-label="Facebook"
+                ><i class="bx bxl-facebook-circle"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="bx bxl-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 DragonFly Hospital. All rights reserved.</p>
+          <span
+            onclick="topp()"
+            id="btn"
+            class="fa-regular fa-circle-up"
+            aria-label="Back to top"
+            role="button"
+            tabindex="0"
+          ></span>
+        </div>
+      </footer>
+      <!-- footer ends -->
+    </div>
+    <!--end of container div -->
+    <script>
+      function toggleMenu() {
+        document.querySelector(".navbar ul").classList.toggle("active");
+      }
+
+      function topp() {
+        window.scrollTo({
+          top: 0,
+
+          behavior: "smooth",
+        });
+      }
+
+      const form = document.getElementById("booking-form");
+
+      const success = document.querySelector(".success-message");
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        success.style.display = "flex";
+
+        form.reset();
+
+        setTimeout(function () {
+          success.style.display = "none";
+        }, 5000);
+      });
+    </script>
+  </body>
+</html>

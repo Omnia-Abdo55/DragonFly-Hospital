@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>login form</title>
+    <link rel="stylesheet" href="css/Login.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper" id="divForm">
+      <form action="index.html" method="get" id="formm">
+        <div class="title">
+          <h1>Welcome Back</h1>
+
+          <i class="bx bxs-user-circle"></i>
+        </div>
+
+        <p class="desc">
+          Login to your DragonFly Hospital account and manage your appointments
+          easily.
+        </p>
+        <div class="inputbox">
+          <input type="text" id="name" placeholder="Username" required />
+          <i class="bx bxs-user"></i>
+        </div>
+        <div class="inputbox">
+          <input type="password" id="pass" placeholder="Password" required />
+          <i class="bx bxs-lock"></i>
+        </div>
+        <div class="remember-forget">
+          <label><input type="checkbox" />Remember me</label>
+          <a href="#">Forget Password?</a>
+        </div>
+
+        <button type="submit" class="btn">
+          <i class="bx bx-log-in"></i>
+          Login
+        </button>
+
+        <div class="register-link">
+          <p>Don't have an account ? <a href="signup.html">Register</a></p>
+        </div>
+
+        <div class="social-login">
+          <p>Or Login with</p>
+
+          <div class="social-icons">
+            <a href="#"><i class="bx bxl-google"></i></a>
+
+            <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+
+            <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DragonFly Hospital provides high-quality healthcare services, experienced doctors, emergency care, online appointments, and advanced medical technology."
+    />
+
+    <meta
+      name="keywords"
+      content="Hospital, Medical, Doctors, Healthcare, Appointment, Emergency"
+    />
+
+    <meta name="author" content="Omnia Abdelhares" />
+
+    <title>DragonFly Hospital | Healthcare & Medical Services</title>
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="top-header">
+        <div class="top-left">
+          <span><i class="fa-solid fa-phone"></i> Emergency: 16452</span>
+
+          <span
+            ><i class="fa-solid fa-envelope"></i>
+            info@dragonflyhospital.com</span
+          >
+
+          <span><i class="fa-solid fa-clock"></i> Open 24/7</span>
+        </div>
+
+        <div class="top-right">
+          <a href="#" aria-label="Facebook"
+            ><i class="bx bxl-facebook-circle"></i
+          ></a>
+
+          <a href="#" aria-label="Instagram"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+
+          <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+
+          <a href="#" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
+
+          <a href="login.html" class="btn-login">Login</a>
+
+          <a href="signup.html" class="btn-signup">Sign Up</a>
+
+          <a href="booknow.html" class="btn-book">Book Appointment</a>
+        </div>
+      </header>
+
+      <nav class="navbar">
+        <div class="logo">
+          <img src="images/logo.png" alt="DragonFly Hospital Logo" />
+
+          <h2>DragonFly Hospital</h2>
+        </div>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="about.html">About</a></li>
+
+          <li><a href="services.html">Services</a></li>
+
+          <li><a href="departments.html">Departments</a></li>
+
+          <li><a href="doctors.html">Doctors</a></li>
+
+          <li><a href="review.html">Reviews</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div id="menu-btn" class="fas fa-bars" onclick="toggleMenu()"></div>
+      </nav>
+
+      <section class="home" id="home">
+        <div class="imageContent">
+          <div class="image">
+            <img src="images/doctorsssssssssssss.png" alt="Doctor" />
+          </div>
+          <div class="content">
+            <span class="eyebrow"
+              ><i class="fa-solid fa-heart-pulse"></i> Open 24/7 &middot;
+              Emergency: 16452</span
+            >
+            <h1>stay safe, stay <span>healthy</span></h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi,
+              aspernatur. Esse hic eum maiores debitis, error voluptate nemo
+              quidem sint architecto quibusdam optio impedit fuga et explicabo
+              deleniti quaerat minima?
+            </p>
+            <a href="#" class="btn"
+              ><i class="bx bxs-hand-right"></i> <span>Contact us</span></a
+            >
+          </div>
+          <!-- end of Content div -->
+        </div>
+        <!-- end of imageContent div -->
+        <section class="containerSlider">
+          <div class="sliderwrapper">
+            <div class="slider">
+              <img
+                id="slide-1"
+                src="images/dragonImage.png"
+                alt="DragonFly Hospital building"
+              />
+              <img
+                src="images/phone.jpg"
+                alt="Medical Service"
+                loading="lazy"
+              />
+              <img
+                id="slide-3"
+                src="images/screenshot-2023-07-31-at-6-48-52-pm.png"
+                alt="Hospital facility overview"
+                loading="lazy"
+              />
+              <img
+                id="slide-4"
+                src="images/digital1.jpg"
+                alt="Digital medical technology equipment"
+                loading="lazy"
+              />
+              <img
+                id="slide-5"
+                src="images/s5.png"
+                alt="Hospital staff at work"
+                loading="lazy"
+              />
+              <img
+                id="slide-6"
+                src="images/R (1).png"
+                alt="Medical team in the operating room"
+                loading="lazy"
+              />
+              <img
+                id="slide-7"
+                src="images/Coastal-Care-Photos-010.jpg"
+                alt="Patient care at DragonFly Hospital"
+                loading="lazy"
+              />
+              <img
+                id="slide-8"
+                src="images/20141103_jlsfoto_0502_web.jpg"
+                alt="Nurse assisting a patient"
+                loading="lazy"
+              />
+
+              <div class="sliderNav">
+                <a href="#slide-1" class="dot active"></a>
+                <a href="#slide-2" class="dot"></a>
+                <a href="#slide-3" class="dot"></a>
+                <a href="#slide-4" class="dot"></a>
+                <a href="#slide-5" class="dot"></a>
+                <a href="#slide-6" class="dot"></a>
+                <a href="#slide-7" class="dot"></a>
+                <a href="#slide-8" class="dot"></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end of containerSlider Section -->
+      </section>
+      <!-- end of home Section -->
+
+      <!-- blogs section starts -->
+      <section class="blogs" id="blogs">
+        <h2 class="heading">our<span>blogs</span></h2>
+        <div class="box-container">
+          <div class="box">
+            <div class="image">
+              <img
+                src="images/Coastal-Care-Photos-010.jpg"
+                alt="Vitality Voyage blog cover image"
+                loading="lazy"
+              />
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i>1st may,2021</a>
+                <a href="#"><i class="fas fa-user"></i>by admin</a>
+              </div>
+              <h3>Vitality Voyage</h3>
+              <p>
+                Lorem ipsum,dolor sit amet consectetur adipisicing
+                elit.provident,eius.
+              </p>
+              <a href="#" class="btn"
+                >learn more <span class="fas fa-chevron-right"></span
+              ></a>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/blog1.jpeg" alt="Medical Blog" loading="lazy" />
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i>1st may,2021</a>
+                <a href="#"><i class="fas fa-user"></i>by admin</a>
+              </div>
+              <h3>Medical Maven</h3>
+              <p>
+                Lorem ipsum,dolor sit amet consectetur adipisicing
+                elit.provident,eius.
+              </p>
+              <a href="#" class="btn"
+                >learn more <span class="fas fa-chevron-right"></span
+              ></a>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img
+                src="images/blog1.png"
+                alt="Meditouch blog cover image"
+                loading="lazy"
+              />
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i>1st may,2026</a>
+                <a href="#"><i class="fas fa-user"></i>by admin</a>
+              </div>
+              <h3>meditouch</h3>
+              <p>
+                Lorem ipsum,dolor sit amet consectetur adipisicing
+                elit.provident,eius.
+              </p>
+              <a href="#" class="btn"
+                >learn more <span class="fas fa-chevron-right"></span
+              ></a>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img
+                src="images/blog2.png"
+                alt="Wellness Works blog cover image"
+                loading="lazy"
+              />
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i>1st may,2025</a>
+                <a href="#"><i class="fas fa-user"></i>by admin</a>
+              </div>
+              <h3>Wellness Works</h3>
+              <p>
+                Lorem ipsum,dolor sit amet consectetur adipisicing
+                elit.provident,eius.
+              </p>
+              <a href="#" class="btn"
+                >learn more <span class="fas fa-chevron-right"></span
+              ></a>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img
+                src="images/blog2.jpeg"
+                alt="Doctor's Diaries blog cover image"
+                loading="lazy"
+              />
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i>1st may,2021</a>
+                <a href="#"><i class="fas fa-user"></i>by admin</a>
+              </div>
+              <h3>Doctor's Diaries</h3>
+              <p>
+                Lorem ipsum,dolor sit amet consectetur adipisicing
+                elit.provident,eius.
+              </p>
+              <a href="#" class="btn"
+                >learn more <span class="fas fa-chevron-right"></span
+              ></a>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img
+                src="images/blog3.jpeg"
+                alt="Healing Hub blog cover image"
+                loading="lazy"
+              />
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i>1st may,2022</a>
+                <a href="#"><i class="fas fa-user"></i>by admin</a>
+              </div>
+              <h3>Healing Hub</h3>
+              <p>
+                Lorem ipsum,dolor sit amet consectetur adipisicing
+                elit.provident,eius.
+              </p>
+              <a href="#" class="btn"
+                >learn more <span class="fas fa-chevron-right"></span
+              ></a>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img
+                src="images/blog5.jpeg"
+                alt="Health Wise blog cover image"
+                loading="lazy"
+              />
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i>1st may,2024</a>
+                <a href="#"><i class="fas fa-user"></i>by admin</a>
+              </div>
+              <h3>Health Wise</h3>
+              <p>
+                Lorem ipsum,dolor sit amet consectetur adipisicing
+                elit.provident,eius.
+              </p>
+              <a href="#" class="btn"
+                >learn more <span class="fas fa-chevron-right"></span
+              ></a>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img
+                src="images/blog4.jpeg"
+                alt="Rx Resonance blog cover image"
+                loading="lazy"
+              />
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i>1st may,2020</a>
+                <a href="#"><i class="fas fa-user"></i>by admin</a>
+              </div>
+              <h3>Rx Resonance</h3>
+              <p>
+                Lorem ipsum,dolor sit amet consectetur adipisicing
+                elit.provident,eius.
+              </p>
+              <a href="#" class="btn"
+                >learn more <span class="fas fa-chevron-right"></span
+              ></a>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img
+                src="images/blog6.jpeg"
+                alt="Vitality Vibes blog cover image"
+                loading="lazy"
+              />
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i>1st may,2026</a>
+                <a href="#"><i class="fas fa-user"></i>by admin</a>
+              </div>
+              <h3>Vitality Vibes</h3>
+              <p>
+                Lorem ipsum,dolor sit amet consectetur adipisicing
+                elit.provident,eius.
+              </p>
+              <a href="#" class="btn"
+                >learn more <span class="fas fa-chevron-right"></span
+              ></a>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img
+                src="images/blog7.jpeg"
+                alt="Medical Mosaic blog cover image"
+                loading="lazy"
+              />
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i>1st may,2026</a>
+                <a href="#"><i class="fas fa-user"></i>by admin</a>
+              </div>
+              <h3>Medical Mosaic</h3>
+              <p>
+                Lorem ipsum,dolor sit amet consectetur adipisicing
+                elit.provident,eius.
+              </p>
+              <a href="#" class="btn"
+                >learn more <span class="fas fa-chevron-right"></span
+              ></a>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img
+                src="images/blog8.jpeg"
+                alt="Meditouch blog cover image"
+                loading="lazy"
+              />
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i>1st may,2026</a>
+                <a href="#"><i class="fas fa-user"></i>by admin</a>
+              </div>
+              <h3>meditouch</h3>
+              <p>
+                Lorem ipsum,dolor sit amet consectetur adipisicing
+                elit.provident,eius.
+              </p>
+              <a href="#" class="btn"
+                >learn more <span class="fas fa-chevron-right"></span
+              ></a>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img
+                src="images/blog9.jpeg"
+                alt="Medicwave blog cover image"
+                loading="lazy"
+              />
+            </div>
+            <div class="content">
+              <div class="icon">
+                <a href="#"><i class="fas fa-calendar"></i>1st may,2025</a>
+                <a href="#"><i class="fas fa-user"></i>by admin</a>
+              </div>
+              <h3>medicwave</h3>
+              <p>
+                Lorem ipsum,dolor sit amet consectetur adipisicing
+                elit.provident,eius.
+              </p>
+              <a href="#" class="btn"
+                >learn more <span class="fas fa-chevron-right"></span
+              ></a>
+            </div>
+          </div>
+        </div>
+        <!-- box-container ends -->
+      </section>
+      <!-- blogs section ends -->
+
+      <!--icon section starts-->
+      <section class="icons-container">
+        <div class="icons">
+          <i class="fas fa-user-md"></i>
+          <h3>140+</h3>
+          <p>doctors at works</p>
+        </div>
+        <div class="icons">
+          <i class="fas fa-users"></i>
+          <h3>1040+</h3>
+          <p>satisfied patients</p>
+        </div>
+        <div class="icons">
+          <i class="fas fa-procedures"></i>
+          <h3>500+</h3>
+          <p>bed facility</p>
+        </div>
+        <div class="icons">
+          <i class="bx bx-plus-medical"></i>
+          <h3>80+</h3>
+          <p>available hospitals</p>
+        </div>
+      </section>
+      <!--icon section end-->
+
+      <!-- footer starts -->
+      <footer class="site-footer">
+        <div class="footer-container">
+          <div class="footer-col">
+            <h3>DragonFly Hospital</h3>
+            <p>
+              Providing high-quality healthcare, experienced doctors and
+              advanced medical technology, available around the clock for our
+              community.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="departments.html">Departments</a></li>
+              <li><a href="doctors.html">Doctors</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-location-dot"></i> 123 Main Street, Cairo,
+                Egypt
+              </li>
+              <li><i class="fa-solid fa-phone"></i> Emergency: 16452</li>
+              <li>
+                <i class="fa-solid fa-envelope"></i> info@dragonflyhospital.com
+              </li>
+              <li><i class="fa-solid fa-clock"></i> Open 24/7</li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Follow Us</h3>
+            <div class="footer-social">
+              <a href="#" aria-label="Facebook"
+                ><i class="bx bxl-facebook-circle"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="bx bxl-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 DragonFly Hospital. All rights reserved.</p>
+          <span
+            onclick="topp()"
+            id="btn"
+            class="fa-regular fa-circle-up"
+            aria-label="Back to top"
+            role="button"
+            tabindex="0"
+          ></span>
+        </div>
+      </footer>
+      <!-- footer ends -->
+    </div>
+    <!--container div ends-->
+
+    <script>
+      function topp() {
+        scroll({ top: 0, behavior: "smooth" });
+      }
+
+      function toggleMenu() {
+        document.querySelector(".navbar ul").classList.toggle("active");
+        document.getElementById("menu-btn").classList.toggle("fa-times");
+      }
+
+      document.querySelectorAll(".navbar ul li a").forEach(function (link) {
+        link.addEventListener("click", function () {
+          document.querySelector(".navbar ul").classList.remove("active");
+          document.getElementById("menu-btn").classList.remove("fa-times");
+        });
+      });
+
+      window.addEventListener("resize", function () {
+        if (window.innerWidth > 768) {
+          document.querySelector(".navbar ul").classList.remove("active");
+          document.getElementById("menu-btn").classList.remove("fa-times");
+        }
+      });
+      const slider = document.querySelector(".slider");
+      const slides = document.querySelectorAll(".slider img");
+      const dots = document.querySelectorAll(".sliderNav .dot");
+
+      let currentIndex = 0;
+
+      function autoSlide() {
+        currentIndex++;
+
+        if (currentIndex >= slides.length) {
+          currentIndex = 0;
+        }
+
+        slider.scrollTo({
+          left: slides[currentIndex].offsetLeft,
+          behavior: "smooth",
+        });
+
+        dots.forEach((dot) => dot.classList.remove("active"));
+        dots[currentIndex].classList.add("active");
+      }
+
+      setInterval(autoSlide, 2000);
+    </script>
+  </body>
+</html>

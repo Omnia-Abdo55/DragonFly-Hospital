@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DragonFly Hospital provides high-quality healthcare services, experienced doctors, emergency care, online appointments, and advanced medical technology."
+    />
+
+    <meta
+      name="keywords"
+      content="Hospital, Medical, Doctors, Healthcare, Appointment, Emergency"
+    />
+
+    <meta name="author" content="Omnia Abdelhares" />
+
+    <title>Dragon Fly Hospital | Doctors</title>
+
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="top-header">
+        <div class="top-left">
+          <span><i class="fa-solid fa-phone"></i> Emergency: 16452</span>
+
+          <span
+            ><i class="fa-solid fa-envelope"></i>
+            info@dragonflyhospital.com</span
+          >
+
+          <span><i class="fa-solid fa-clock"></i> Open 24/7</span>
+        </div>
+
+        <div class="top-right">
+          <a href="#" aria-label="Facebook"
+            ><i class="bx bxl-facebook-circle"></i
+          ></a>
+
+          <a href="#" aria-label="Instagram"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+
+          <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+
+          <a href="#" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
+
+          <a href="login.html" class="btn-login">Login</a>
+
+          <a href="signup.html" class="btn-signup">Sign Up</a>
+
+          <a href="booknow.html" class="btn-book">Book Appointment</a>
+        </div>
+      </header>
+
+      <nav class="navbar">
+        <div class="logo">
+          <img src="images/logo.png" alt="DragonFly Hospital Logo" />
+
+          <h2>DragonFly Hospital</h2>
+        </div>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="about.html">About</a></li>
+
+          <li><a href="services.html">Services</a></li>
+
+          <li>
+            <a href="departments.html">Departments</a>
+          </li>
+
+          <li><a href="doctors.html" id="doc" class="active">Doctors</a></li>
+
+          <li><a href="review.html">Reviews</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div id="menu-btn" class="fas fa-bars" onclick="toggleMenu()"></div>
+      </nav>
+      <section class="doctors-hero">
+        <h2 class="heading">Meet Our <span>Medical Experts</span></h2>
+
+        <p class="section-text">
+          Our experienced physicians and specialists are committed to providing
+          exceptional healthcare with compassion, innovation, and excellence.
+        </p>
+      </section>
+
+      <section class="doctors">
+        <h1 class="heading">our <span>doctors </span></h1>
+        <div class="box-container">
+          <div class="box">
+            <img src="images/doc2.png" alt="." />
+            <h3>Dr.John Albert</h3>
+            <span>Neurology</span>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <a href="booknow.html" class="btn">
+              <i class="fa-solid fa-calendar-check"></i>
+              Book Appointment
+            </a>
+          </div>
+
+          <div class="box">
+            <img src="images/doc4.png" alt="." />
+            <h3>Dr. Anthony Fauci</h3>
+            <span>Pulmonology</span>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <a href="booknow.html" class="btn">
+              <i class="fa-solid fa-calendar-check"></i>
+              Book Appointment
+            </a>
+          </div>
+
+          <div class="box">
+            <img src="images/doc11.png" alt="." />
+            <h3>Dr. Paul Farmer</h3>
+            <span>Pediatrics</span>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <a href="booknow.html" class="btn">
+              <i class="fa-solid fa-calendar-check"></i>
+              Book Appointment
+            </a>
+          </div>
+
+          <div class="box">
+            <img src="images/doc10.webp" alt="." />
+            <h3>Dr. Ellen Ochoa</h3>
+            <span>General Medicine</span>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <a href="booknow.html" class="btn">
+              <i class="fa-solid fa-calendar-check"></i>
+              Book Appointment
+            </a>
+          </div>
+
+          <div class="box">
+            <img src="images/doc1.png" alt="." />
+            <h3>Dr. Ruth Pfau</h3>
+            <span>Ophthalmology</span>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <a href="booknow.html" class="btn">
+              <i class="fa-solid fa-calendar-check"></i>
+              Book Appointment
+            </a>
+          </div>
+
+          <div class="box">
+            <img src="images/doc3.jpeg" alt="." />
+            <h3>Dr. Albert Schweitzer</h3>
+            <span>Pulmonology</span>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <a href="booknow.html" class="btn">
+              <i class="fa-solid fa-calendar-check"></i>
+              Book Appointment
+            </a>
+          </div>
+          <div class="box">
+            <img src="images/doc6.jpeg" alt="." />
+            <h3>John Albert</h3>
+            <span>General Medicine</span>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <a href="booknow.html" class="btn">
+              <i class="fa-solid fa-calendar-check"></i>
+              Book Appointment
+            </a>
+          </div>
+
+          <div class="box">
+            <img src="images/doc7.png" alt="." />
+            <h3>Dr. Ben Carson</h3>
+            <span>Neurology</span>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <a href="booknow.html" class="btn">
+              <i class="fa-solid fa-calendar-check"></i>
+              Book Appointment
+            </a>
+          </div>
+
+          <div class="box">
+            <img src="images/doc8.jpeg" alt="." />
+            <h3>Dr. Sanjay Gupta</h3>
+            <span>Dental Care</span>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <a href="booknow.html" class="btn">
+              <i class="fa-solid fa-calendar-check"></i>
+              Book Appointment
+            </a>
+          </div>
+
+          <div class="box">
+            <img src="images/doc1.png" alt="." />
+            <h3>Dr. Angela Davis</h3>
+            <span>Ophthalmology</span>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <a href="booknow.html" class="btn">
+              <i class="fa-solid fa-calendar-check"></i>
+              Book Appointment
+            </a>
+          </div>
+
+          <div class="box">
+            <img src="images/doc33.jpeg" alt="." />
+            <h3>Dr. David Suzuki</h3>
+            <span>Pediatrics</span>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <a href="booknow.html" class="btn">
+              <i class="fa-solid fa-calendar-check"></i>
+              Book Appointment
+            </a>
+          </div>
+          <div class="box">
+            <img src="images/doc22.jpeg" alt="." />
+            <h3>Dr. Michelle Obama</h3>
+            <span>Cardiology</span>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <a href="booknow.html" class="btn">
+              <i class="fa-solid fa-calendar-check"></i>
+              Book Appointment
+            </a>
+          </div>
+        </div>
+        <!-- end of box-container div-->
+      </section>
+
+      <section class="doctor-features">
+        <h2 class="heading">Why <span>Our Doctors</span></h2>
+
+        <div class="cards">
+          <div class="card">
+            <i class="fa-solid fa-user-doctor"></i>
+            <h3>Experienced Specialists</h3>
+            <p>
+              Our doctors have years of clinical experience across multiple
+              medical specialties.
+            </p>
+          </div>
+
+          <div class="card">
+            <i class="fa-solid fa-stethoscope"></i>
+            <h3>Personalized Care</h3>
+            <p>
+              Every patient receives an individualized treatment plan tailored
+              to their needs.
+            </p>
+          </div>
+
+          <div class="card">
+            <i class="fa-solid fa-microscope"></i>
+            <h3>Advanced Technology</h3>
+            <p>
+              Using modern diagnostic equipment for accurate results and better
+              treatment.
+            </p>
+          </div>
+
+          <div class="card">
+            <i class="fa-solid fa-heart-pulse"></i>
+            <h3>24/7 Medical Support</h3>
+            <p>
+              Emergency doctors and specialists are available around the clock.
+            </p>
+          </div>
+
+          <div class="card">
+            <i class="fa-solid fa-award"></i>
+            <h3>Certified Experts</h3>
+            <p>
+              Internationally trained physicians committed to the highest
+              medical standards.
+            </p>
+          </div>
+
+          <div class="card">
+            <i class="fa-solid fa-hand-holding-heart"></i>
+            <h3>Compassionate Care</h3>
+            <p>We</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="doctor-stats">
+        <div class="stat-box">
+          <h2>150+</h2>
+          <p>Medical Experts</p>
+        </div>
+
+        <div class="stat-box">
+          <h2>25+</h2>
+          <p>Specialties</p>
+        </div>
+
+        <div class="stat-box">
+          <h2>50K+</h2>
+          <p>Successful Treatments</p>
+        </div>
+
+        <div class="stat-box">
+          <h2>98%</h2>
+          <p>Patient Satisfaction</p>
+        </div>
+
+        <div class="stat-box">
+          <h2>24/7</h2>
+          <p>Emergency Support</p>
+        </div>
+
+        <div class="stat-box">
+          <h2>15+</h2>
+          <p>Years of Excellence</p>
+        </div>
+      </section>
+
+      <section class="doctor-cta">
+        <h2>Need Expert Medical Advice?</h2>
+
+        <p>
+          Schedule an appointment with one of our experienced specialists today.
+        </p>
+
+        <a href="booknow.html" class="btn">
+          <i class="fa-solid fa-calendar-check"></i>
+          Book Appointment
+        </a>
+      </section>
+
+      <!-- footer starts -->
+      <footer class="site-footer">
+        <div class="footer-container">
+          <div class="footer-col">
+            <h3>DragonFly Hospital</h3>
+            <p>
+              Providing high-quality healthcare, experienced doctors and
+              advanced medical technology, available around the clock for our
+              community.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="departments.html">Departments</a></li>
+              <li><a href="doctors.html">Doctors</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-location-dot"></i> 123 Main Street, Cairo,
+                Egypt
+              </li>
+              <li><i class="fa-solid fa-phone"></i> Emergency: 16452</li>
+              <li>
+                <i class="fa-solid fa-envelope"></i> info@dragonflyhospital.com
+              </li>
+              <li><i class="fa-solid fa-clock"></i> Open 24/7</li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Follow Us</h3>
+            <div class="footer-social">
+              <a href="#" aria-label="Facebook"
+                ><i class="bx bxl-facebook-circle"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="bx bxl-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 DragonFly Hospital. All rights reserved.</p>
+          <span
+            onclick="topp()"
+            id="btn"
+            class="fa-regular fa-circle-up"
+            aria-label="Back to top"
+            role="button"
+            tabindex="0"
+          ></span>
+        </div>
+      </footer>
+      <!-- footer ends -->
+    </div>
+    <!-- end of container div-->
+
+    <script>
+      let doc = document.getElementById("doc");
+      let btn = document.getElementById("btn");
+      function toggleMenu() {
+        document.querySelector(".navbar ul").classList.toggle("active");
+      }
+      function topp() {
+        scroll({ top: 0, behavior: "smooth" });
+      }
+    </script>
+  </body>
+</html>

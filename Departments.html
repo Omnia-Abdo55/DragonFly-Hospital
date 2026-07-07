@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DragonFly Hospital provides high-quality healthcare services, experienced doctors, emergency care, online appointments, and advanced medical technology."
+    />
+
+    <meta
+      name="keywords"
+      content="Hospital, Medical, Doctors, Healthcare, Appointment, Emergency"
+    />
+
+    <meta name="author" content="Omnia Abdelhares" />
+
+    <title>Dragon Fly Hospital | Departements</title>
+
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="top-header">
+        <div class="top-left">
+          <span><i class="fa-solid fa-phone"></i> Emergency: 16452</span>
+
+          <span
+            ><i class="fa-solid fa-envelope"></i>
+            info@dragonflyhospital.com</span
+          >
+
+          <span><i class="fa-solid fa-clock"></i> Open 24/7</span>
+        </div>
+
+        <div class="top-right">
+          <a href="#" aria-label="Facebook"
+            ><i class="bx bxl-facebook-circle"></i
+          ></a>
+
+          <a href="#" aria-label="Instagram"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+
+          <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+
+          <a href="#" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
+
+          <a href="login.html" class="btn-login">Login</a>
+
+          <a href="signup.html" class="btn-signup">Sign Up</a>
+
+          <a href="booknow.html" class="btn-book">Book Appointment</a>
+        </div>
+      </header>
+
+      <nav class="navbar">
+        <div class="logo">
+          <img src="images/logo.png" alt="DragonFly Hospital Logo" />
+
+          <h2>DragonFly Hospital</h2>
+        </div>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="about.html">About</a></li>
+
+          <li><a href="services.html">Services</a></li>
+
+          <li>
+            <a href="departments.html" id="dep" class="active">Departments</a>
+          </li>
+
+          <li><a href="doctors.html">Doctors</a></li>
+
+          <li><a href="review.html">Reviews</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div id="menu-btn" class="fas fa-bars" onclick="toggleMenu()"></div>
+      </nav>
+
+      <section class="departments">
+        <h2 class="heading">Our <span>Departments</span></h2>
+
+        <p class="section-text">
+          Explore our specialized medical departments equipped with advanced
+          technology and experienced healthcare professionals.
+        </p>
+
+        <div class="box-container">
+          <!-- Card 1 -->
+          <div class="box">
+            <div class="image">
+              <img src="images/heart3.png" alt="Cardiology Department" />
+            </div>
+
+            <div class="content">
+              <h3>
+                Cardiology
+                <i class="fa-solid fa-heart-circle-bolt"></i>
+              </h3>
+
+              <p>
+                Comprehensive heart care including diagnosis, surgery,
+                rehabilitation, and preventive cardiovascular treatment.
+              </p>
+
+              <a href="booknow.html" class="btn">
+                Book Appointment
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="box">
+            <div class="image">
+              <img src="images/R.png" alt="Internal Medicine" />
+            </div>
+
+            <div class="content">
+              <h3>
+                Internal Medicine
+                <i class="fa-solid fa-stethoscope"></i>
+              </h3>
+
+              <p>
+                Expert physicians providing complete diagnosis and treatment for
+                adults with acute and chronic diseases.
+              </p>
+
+              <a href="booknow.html" class="btn">
+                Book Appointment
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="box">
+            <div class="image">
+              <img src="images/Hero+Image+-+Desktop.jpg" alt="Pediatrics" />
+            </div>
+
+            <div class="content">
+              <h3>
+                Pediatrics
+                <i class="fa-solid fa-children"></i>
+              </h3>
+
+              <p>
+                Specialized healthcare for infants, children, and adolescents
+                delivered with compassion and expertise.
+              </p>
+
+              <a href="booknow.html" class="btn">
+                Book Appointment
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="box">
+            <div class="image">
+              <img src="images/OIP (1).jpeg" alt="Eye Department" />
+            </div>
+
+            <div class="content">
+              <h3>
+                Ophthalmology
+                <i class="fa-solid fa-eye"></i>
+              </h3>
+
+              <p>
+                Advanced eye examinations, laser vision correction, cataract
+                surgery, and comprehensive eye care.
+              </p>
+
+              <a href="booknow.html" class="btn">
+                Book Appointment
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="box">
+            <div class="image">
+              <img src="images/OIP (5).jpeg" alt="Dermatology" />
+            </div>
+
+            <div class="content">
+              <h3>
+                Dermatology
+                <i class="fa-solid fa-hand-sparkles"></i>
+              </h3>
+
+              <p>
+                Skin, hair, and nail treatments using modern technologies and
+                personalized medical care.
+              </p>
+
+              <a href="booknow.html" class="btn">
+                Book Appointment
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="box">
+            <div class="image">
+              <img src="images/oral3.jpg" alt="Dental Department" />
+            </div>
+
+            <div class="content">
+              <h3>
+                Dental Care
+                <i class="fa-solid fa-tooth"></i>
+              </h3>
+
+              <p>
+                Preventive dentistry, cosmetic procedures, implants,
+                orthodontics, and complete oral healthcare.
+              </p>
+
+              <a href="booknow.html" class="btn">
+                Book Appointment
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-departments">
+        <h2 class="heading">Why <span>Choose Us</span></h2>
+
+        <div class="cards">
+          <div class="card">
+            <i class="fa-solid fa-user-doctor"></i>
+
+            <h3>Experienced Specialists</h3>
+
+            <p>Highly qualified consultants across every specialty.</p>
+          </div>
+
+          <div class="card">
+            <i class="fa-solid fa-microscope"></i>
+
+            <h3>Advanced Equipment</h3>
+
+            <p>Modern diagnostic and treatment technologies.</p>
+          </div>
+
+          <div class="card">
+            <i class="fa-solid fa-heart-pulse"></i>
+
+            <h3>24/7 Emergency</h3>
+
+            <p>Emergency support around the clock.</p>
+          </div>
+
+          <div class="card">
+            <i class="fa-solid fa-hospital-user"></i>
+
+            <h3>Patient Centered</h3>
+
+            <p>Your comfort and safety always come first.</p>
+          </div>
+
+          <div class="card">
+            <i class="fa-solid fa-user-nurse"></i>
+
+            <h3>Professional Nursing</h3>
+
+            <p>
+              Dedicated nursing staff providing compassionate care around the
+              clock.
+            </p>
+          </div>
+
+          <div class="card">
+            <i class="fa-solid fa-shield-heart"></i>
+
+            <h3>Safe Environment</h3>
+
+            <p>
+              International safety standards with advanced infection control
+              systems.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="department-stats">
+        <div class="stat-box">
+          <h2>30+</h2>
+          <p>Medical Departments</p>
+        </div>
+
+        <div class="stat-box">
+          <h2>180+</h2>
+          <p>Specialists</p>
+        </div>
+
+        <div class="stat-box">
+          <h2>75K+</h2>
+          <p>Patients Treated</p>
+        </div>
+
+        <div class="stat-box">
+          <h2>24/7</h2>
+          <p>Emergency Services</p>
+        </div>
+      </section>
+
+      <section class="medical-icons">
+        <div class="icon-box">
+          <i class="fa-solid fa-heart-pulse"></i>
+          <h4>Cardiology</h4>
+        </div>
+
+        <div class="icon-box">
+          <i class="fa-solid fa-brain"></i>
+          <h4>Neurology</h4>
+        </div>
+
+        <div class="icon-box">
+          <i class="fa-solid fa-lungs"></i>
+          <h4>Pulmonology</h4>
+        </div>
+
+        <div class="icon-box">
+          <i class="fa-solid fa-eye"></i>
+          <h4>Ophthalmology</h4>
+        </div>
+
+        <div class="icon-box">
+          <i class="fa-solid fa-tooth"></i>
+          <h4>Dental</h4>
+        </div>
+
+        <div class="icon-box">
+          <i class="fa-solid fa-bone"></i>
+          <h4>Orthopedics</h4>
+        </div>
+
+        <div class="icon-box">
+          <i class="fa-solid fa-user-doctor"></i>
+          <h4>Consultation</h4>
+        </div>
+
+        <div class="icon-box">
+          <i class="fa-solid fa-notes-medical"></i>
+          <h4>Diagnosis</h4>
+        </div>
+
+        <div class="icon-box">
+          <i class="fa-solid fa-stethoscope"></i>
+          <h4>General Medicine</h4>
+        </div>
+
+        <div class="icon-box">
+          <i class="fa-solid fa-baby"></i>
+          <h4>Pediatrics</h4>
+        </div>
+      </section>
+      <section class="departments-cta">
+        <h2>Need Medical Consultation?</h2>
+
+        <p>
+          Book your appointment today and receive personalized care from our
+          experienced specialists.
+        </p>
+
+        <a href="booknow.html" class="btn">
+          <i class="fa-solid fa-calendar-check"></i>
+
+          Book Now
+        </a>
+      </section>
+
+      <!-- footer starts -->
+      <footer class="site-footer">
+        <div class="footer-container">
+          <div class="footer-col">
+            <h3>DragonFly Hospital</h3>
+            <p>
+              Providing high-quality healthcare, experienced doctors and
+              advanced medical technology, available around the clock for our
+              community.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="departments.html">Departments</a></li>
+              <li><a href="doctors.html">Doctors</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-location-dot"></i> 123 Main Street, Cairo,
+                Egypt
+              </li>
+              <li><i class="fa-solid fa-phone"></i> Emergency: 16452</li>
+              <li>
+                <i class="fa-solid fa-envelope"></i> info@dragonflyhospital.com
+              </li>
+              <li><i class="fa-solid fa-clock"></i> Open 24/7</li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Follow Us</h3>
+            <div class="footer-social">
+              <a href="#" aria-label="Facebook"
+                ><i class="bx bxl-facebook-circle"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="bx bxl-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 DragonFly Hospital. All rights reserved.</p>
+          <span
+            onclick="topp()"
+            id="btn"
+            class="fa-regular fa-circle-up"
+            aria-label="Back to top"
+            role="button"
+            tabindex="0"
+          ></span>
+        </div>
+      </footer>
+      <!-- footer ends -->
+    </div>
+
+    <script>
+      let dep = document.getElementById("dep");
+      let btn = document.getElementById("btn");
+
+      function toggleMenu() {
+        document.querySelector(".navbar ul").classList.toggle("active");
+      }
+
+      function topp() {
+        scroll({ top: 0, behavior: "smooth" });
+      }
+    </script>
+  </body>
+</html>

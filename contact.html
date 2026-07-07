@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DragonFly Hospital provides high-quality healthcare services, experienced doctors, emergency care, online appointments, and advanced medical technology."
+    />
+
+    <meta
+      name="keywords"
+      content="Hospital, Medical, Doctors, Healthcare, Appointment, Emergency"
+    />
+
+    <meta name="author" content="Omnia Abdelhares" />
+
+    <title>DragonFly Hospital | Contact Us</title>
+
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="top-header">
+        <div class="top-left">
+          <span><i class="fa-solid fa-phone"></i> Emergency: 16452</span>
+
+          <span
+            ><i class="fa-solid fa-envelope"></i>
+            info@dragonflyhospital.com</span
+          >
+
+          <span><i class="fa-solid fa-clock"></i> Open 24/7</span>
+        </div>
+
+        <div class="top-right">
+          <a href="#" aria-label="Facebook"
+            ><i class="bx bxl-facebook-circle"></i
+          ></a>
+
+          <a href="#" aria-label="Instagram"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+
+          <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+
+          <a href="#" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
+
+          <a href="login.html" class="btn-login">Login</a>
+
+          <a href="signup.html" class="btn-signup">Sign Up</a>
+
+          <a href="booknow.html" class="btn-book">Book Appointment</a>
+        </div>
+      </header>
+
+      <nav class="navbar">
+        <div class="logo">
+          <img src="images/logo.png" alt="DragonFly Hospital Logo" />
+
+          <h2>DragonFly Hospital</h2>
+        </div>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="about.html">About</a></li>
+
+          <li><a href="services.html">Services</a></li>
+
+          <li>
+            <a href="departments.html">Departments</a>
+          </li>
+
+          <li><a href="doctors.html">Doctors</a></li>
+
+          <li><a href="review.html">Reviews</a></li>
+
+          <li><a href="contact.html" id="con" class="active">Contact</a></li>
+        </ul>
+
+        <div id="menu-btn" class="fas fa-bars" onclick="toggleMenu()"></div>
+      </nav>
+
+      <!-- Contact Hero -->
+
+      <section class="contact-hero">
+        <div class="hero-content">
+          <h1 class="heading">Contact <span>Us</span></h1>
+
+          <p class="section-text">
+            Our healthcare team is available around the clock to answer your
+            questions, schedule appointments, and provide the medical support
+            you need.
+          </p>
+
+          <a href="booknow.html" class="btn">
+            <i class="fa-solid fa-calendar-check"></i>
+            Book Appointment
+          </a>
+        </div>
+      </section>
+
+      <section class="contact-info">
+        <div class="info-card">
+          <i class="fa-solid fa-location-dot"></i>
+
+          <h3>Address</h3>
+
+          <p>123 Main Street, Cairo, Egypt</p>
+        </div>
+
+        <div class="info-card">
+          <i class="fa-solid fa-phone"></i>
+
+          <h3>Emergency</h3>
+
+          <p>16452</p>
+        </div>
+
+        <div class="info-card">
+          <i class="fa-solid fa-envelope"></i>
+
+          <h3>Email</h3>
+
+          <p>info@dragonflyhospital.com</p>
+        </div>
+
+        <div class="info-card">
+          <i class="fa-solid fa-clock"></i>
+
+          <h3>Working Hours</h3>
+
+          <p>Open 24 Hours</p>
+        </div>
+
+        <div class="info-card">
+          <i class="fa-solid fa-user-doctor"></i>
+
+          <h3>Medical Support</h3>
+
+          <p>
+            Experienced specialists are available 24/7 to assist you with your
+            healthcare needs.
+          </p>
+        </div>
+
+        <div class="info-card">
+          <i class="fa-solid fa-calendar-check"></i>
+
+          <h3>Appointments</h3>
+
+          <p>
+            Book your appointment online quickly and choose the doctor and time
+            that suits you.
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <div class="contact-container">
+          <div class="contact-image">
+            <img src="images/contact-us.jpg" alt="Contact DragonFly Hospital" />
+          </div>
+
+          <div class="contact-form">
+            <h2>Send us a Message</h2>
+            <p>Our team will contact you within 24 hours.</p>
+
+            <form action="#" method="post">
+              <div class="input-box">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="Full Name" required />
+              </div>
+
+              <div class="input-box">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email" required />
+              </div>
+
+              <div class="input-box">
+                <i class="fa-solid fa-phone"></i>
+                <input type="text" placeholder="Phone Number" required />
+              </div>
+
+              <div class="input-box textarea">
+                <i class="fa-solid fa-comment"></i>
+                <textarea placeholder="Your Message" required></textarea>
+              </div>
+
+              <button type="submit" class="btn">
+                <i class="fa-solid fa-paper-plane"></i>
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18..."
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+      </section>
+
+      <section class="faq">
+        <h2 class="heading">Frequently <span>Asked Questions</span></h2>
+
+        <div class="faq-box">
+          <h3>Do I need an appointment?</h3>
+
+          <p>
+            Appointments are recommended, but emergency services are available
+            24/7.
+          </p>
+        </div>
+
+        <div class="faq-box">
+          <h3>Do you accept insurance?</h3>
+
+          <p>Yes, we cooperate with most major insurance providers.</p>
+        </div>
+
+        <div class="faq-box">
+          <h3>Can I book online?</h3>
+
+          <p>Absolutely! Use our Book Appointment page anytime.</p>
+        </div>
+      </section>
+
+      <!-- footer starts -->
+      <footer class="site-footer">
+        <div class="footer-container">
+          <div class="footer-col">
+            <h3>DragonFly Hospital</h3>
+            <p>
+              Providing high-quality healthcare, experienced doctors and
+              advanced medical technology, available around the clock for our
+              community.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="departments.html">Departments</a></li>
+              <li><a href="doctors.html">Doctors</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-location-dot"></i> 123 Main Street, Cairo,
+                Egypt
+              </li>
+              <li><i class="fa-solid fa-phone"></i> Emergency: 16452</li>
+              <li>
+                <i class="fa-solid fa-envelope"></i> info@dragonflyhospital.com
+              </li>
+              <li><i class="fa-solid fa-clock"></i> Open 24/7</li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Follow Us</h3>
+            <div class="footer-social">
+              <a href="#" aria-label="Facebook"
+                ><i class="bx bxl-facebook-circle"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="bx bxl-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 DragonFly Hospital. All rights reserved.</p>
+          <span
+            onclick="topp()"
+            id="btn"
+            class="fa-regular fa-circle-up"
+            aria-label="Back to top"
+            role="button"
+            tabindex="0"
+          ></span>
+        </div>
+      </footer>
+      <!-- footer ends -->
+    </div>
+    <!--end of container div -->
+
+    <script>
+      let rev = document.getElementById("con");
+      let btn = document.getElementById("btn");
+
+      function topp() {
+        scroll({ top: 0, behavior: "smooth" });
+      }
+
+      function toggleMenu() {
+        document.querySelector(".navbar ul").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

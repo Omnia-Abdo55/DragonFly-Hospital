@@ -1,0 +1,420 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+}
+
+body{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    min-height:100vh;
+
+    background:
+    linear-gradient(rgba(7,33,52,.45),rgba(12,118,106,.35)),
+    url("../images/imges.png") center/cover no-repeat;
+
+    padding:40px 20px;
+
+    overflow-y:auto;
+}
+
+/*=========================
+        SIGNUP BOX
+=========================*/
+
+.wrapper{
+
+    width:620px;
+
+    max-width:100%;
+
+    background:rgba(255,255,255,.12);
+
+    border:1.5px solid rgba(255,255,255,.22);
+
+    backdrop-filter:blur(22px);
+
+    -webkit-backdrop-filter:blur(22px);
+
+    border-radius:25px;
+
+    padding:45px;
+
+    margin:40px 0;
+
+    color:#fff;
+
+    box-shadow:
+    0 20px 45px rgba(0,0,0,.25),
+    inset 0 0 0 1px rgba(255,255,255,.08);
+
+    animation:fade .8s ease;
+
+    transition:.4s;
+}
+
+.wrapper:hover{
+
+    transform:translateY(-5px);
+
+    border-color:rgba(255,255,255,.45);
+
+    box-shadow:
+    0 25px 60px rgba(0,0,0,.35),
+    0 0 25px rgba(12,118,106,.18);
+}
+
+.title{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:12px;
+
+    margin-bottom:12px;
+}
+
+.title h1{
+
+    font-size:38px;
+
+    font-weight:700;
+}
+
+.title i{
+
+    font-size:38px;
+
+    color:#5de1d5;
+}
+
+.desc{
+
+    text-align:center;
+
+    color:#f1f1f1;
+
+    line-height:1.7;
+
+    margin-bottom:30px;
+
+    font-size:15px;
+}
+
+.inputbox{
+
+    margin-bottom:20px;
+}
+
+.inputbox label{
+
+    display:block;
+
+    margin-bottom:10px;
+
+    font-size:15px;
+
+    font-weight:500;
+}
+
+.inputbox input{
+
+    width:100%;
+
+    height:55px;
+
+    border-radius:50px;
+
+    border:2px solid rgba(255,255,255,.22);
+
+    background:rgba(255,255,255,.08);
+
+    color:#fff;
+
+    padding:0 22px;
+
+    outline:none;
+
+    transition:.35s;
+}
+
+.inputbox input::placeholder{
+
+    color:#e8e8e8;
+}
+
+.inputbox input:hover{
+
+    border-color:rgba(255,255,255,.5);
+}
+
+.inputbox input:focus{
+
+    border-color:#20d4c1;
+
+    background:rgba(255,255,255,.12);
+
+    box-shadow:0 0 18px rgba(32,212,193,.35);
+}
+
+.login-link{
+
+    text-align:center;
+
+    margin-top:25px;
+
+    color:#fff;
+
+    font-size:15px;
+}
+
+.login-link a{
+
+    color:#5de1d5;
+
+    text-decoration:none;
+
+    font-weight:600;
+}
+
+.login-link a:hover{
+
+    text-decoration:underline;
+}
+
+
+.anotherSignUp{
+
+    margin-top:30px;
+
+    text-align:center;
+}
+
+.anotherSignUp p{
+
+    margin-bottom:18px;
+
+    font-size:16px;
+}
+
+.icon{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+}
+
+.icon i{
+
+    width:52px;
+
+    height:52px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.12);
+
+    border:1px solid rgba(255,255,255,.2);
+
+    font-size:24px;
+
+    cursor:pointer;
+
+    transition:.35s;
+}
+
+.icon i:hover{
+
+    background:#0C766A;
+
+    transform:translateY(-6px);
+}
+
+
+.terms{
+
+    margin-top:30px;
+
+    text-align:center;
+
+    line-height:1.7;
+
+    font-size:14px;
+
+    color:#eee;
+}
+
+.terms a{
+
+    color:#5de1d5;
+
+    text-decoration:none;
+
+    font-weight:600;
+}
+
+.terms a:hover{
+
+    text-decoration:underline;
+}
+
+@media(max-width:768px){
+
+.wrapper{
+
+    padding:35px 25px;
+}
+
+.title h1{
+
+    font-size:32px;
+}
+
+.title i{
+
+    font-size:32px;
+}
+
+}
+
+@media(max-width:480px){
+
+body{
+
+    padding:15px;
+}
+
+.wrapper{
+
+    padding:25px 18px;
+}
+
+.title{
+
+    flex-direction:column;
+}
+
+.title h1{
+
+    font-size:28px;
+}
+
+.icon{
+
+    gap:15px;
+}
+
+.icon i{
+
+    width:45px;
+
+    height:45px;
+}
+}
+
+/*=========================
+        BUTTON
+=========================*/
+
+.btn{
+
+    width:100%;
+
+    height:58px;
+
+    border:none;
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    margin-top:20px;
+
+    background:linear-gradient(135deg,#0C766A,#18B8A7);
+
+    color:#fff;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    letter-spacing:.5px;
+
+    transition:.4s;
+
+    box-shadow:
+    0 12px 30px rgba(12,118,106,.35);
+
+    position:relative;
+
+    overflow:hidden;
+}
+
+/* Shine Effect */
+
+.btn::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:-100%;
+
+    width:100%;
+
+    height:100%;
+
+    background:linear-gradient(
+        120deg,
+        transparent,
+        rgba(255,255,255,.35),
+        transparent
+    );
+
+    transition:.7s;
+}
+
+.btn:hover::before{
+
+    left:100%;
+}
+
+.btn:hover{
+
+    transform:translateY(-5px);
+
+    background:linear-gradient(135deg,#18B8A7,#0C766A);
+
+    box-shadow:
+    0 18px 40px rgba(12,118,106,.45);
+
+    letter-spacing:1px;
+}
+
+.btn:active{
+
+    transform:scale(.98);
+}
+
+
+
+
+
+

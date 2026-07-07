@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+content="DragonFly Hospital provides high-quality healthcare services, experienced doctors, emergency care, online appointments, and advanced medical technology.">
+
+<meta name="keywords"
+content="Hospital, Medical, Doctors, Healthcare, Appointment, Emergency">
+
+<meta name="author"
+content="Omnia Abdelhares">
+
+   <title>Dragon Fly Hospital |Doctors</title>
+
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+   <div class="container">
+<header class="top-header">
+
+    <div class="top-left">
+
+        <span><i class="fa-solid fa-phone"></i> Emergency: 16452</span>
+
+        <span><i class="fa-solid fa-envelope"></i> info@dragonflyhospital.com</span>
+
+        <span><i class="fa-solid fa-clock"></i> Open 24/7</span>
+
+    </div>
+
+    <div class="top-right">
+
+        <a href="#" aria-label="Facebook"><i class="bx bxl-facebook-circle"></i></a>
+
+        <a href="#" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+
+        <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+
+        <a href="#" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
+
+        <a href="login.html" class="btn-login">Login</a>
+
+        <a href="signup.html" class="btn-signup">Sign Up</a>
+
+        <a href="booknow.html" class="btn-book">Book Appointment</a>
+
+    </div>
+
+</header>
+
+<nav class="navbar">
+
+    <div class="logo">
+
+        <img src="images/logo.png" alt="DragonFly Hospital Logo">
+
+        <h2>DragonFly Hospital</h2>
+
+    </div>
+
+    <ul>
+
+        <li><a href="index.html" >Home</a></li>
+
+        <li><a href="about.html">About</a></li>
+
+        <li><a href="services.html" >Services</a></li>
+
+        <li>
+    <a href="departments.html"  >Departments</a>
+</li>
+
+        <li><a href="doctors.html" >Doctors</a></li>
+
+        <li><a href="review.html" id="rev"  class="active" >Reviews</a></li>
+
+        <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+
+    <div id="menu-btn" class="fas fa-bars" onclick="toggleMenu()"></div>
+
+</nav>
+
+<section class="review-hero">
+
+    <h2 class="heading">
+        Patient <span>Testimonials</span>
+    </h2>
+
+    <p class="section-text">
+        Discover what our patients say about their experience with DragonFly Hospital and our dedicated medical team.
+    </p>
+
+</section>
+
+  <section class="review" id="review">
+    <h1 class="heading">Patient's <span>Review</span></h1>
+    <div class="box-container">
+    
+    <div class="box">
+    <img src="images/user1.png" alt="">
+    <h3>Deniz Yamac</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p class="text">
+     The services that I receive from (DN) is excellent. Dr.Omnia and the staff are friendly and ensure that I am properly informed about my health and care. I would have no qualms in recommending them to friendly and friends.
+    </p>
+
+    </div>
+
+    <div class="box">
+    <img src="images/user10.png" alt="">
+    <h3>Sandy Karam</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p class="text">
+      I have been with Dr.Zahraa now for three years. Dr. (Name) is always professional and compassionate. He relates well to people and takes time to listen and takes appropriate action on the symptoms. He is good at building trust with his patients.
+    </p>
+    </div>
+    
+    <div class="box">
+        <img src="images/user8.png "alt="">
+        <h3>Karmen seif</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+         </div>
+        <p class="text">
+          Dr.Klara did a great job with my first ever health exam. She explained everything to me in a very clear manner. She was also kind and friendly. All of the staff was great – they were helpful, patient and helped with my insurance.
+        </p>
+        </div>
+        
+        <div class="box">
+            <img src="images/user2.png" alt="">
+            <h3>Gamal Ahmed</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="text">
+              Dr.Rana was a wonderful surgeon, and the staff was always helpful and kind. They ensured I had a smooth prep, surgery, and follow-up. I am so glad I chose DragonFLy and would highly recommend to anyone.    
+           </p>
+    </div>
+    
+    <div class="box">
+    <img src="images/user7.png" alt="">
+    <h3>Lara Ayoup</h3>
+    <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p class="text">
+      Wonderful experience withDragon FLy Hospital. It’s rare to find a doctor that combines such personal touches and care for a patient as a person with outstanding quality of medical care. I highly recommend becoming her patient!        
+    </p>
+    </div>
+    
+    <div class="box">
+    <img src="images/user6.png" alt="">
+    <h3>Sara Salem</h3>
+    <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p class="text">
+      Great medical office, wonderful and warm experience from start to finish.Highly recommended.
+      My doctor is simply the best. She’s a great listener and always provides thoughtful responses to my concerns. 
+    </p>
+    </div>
+    
+    <div class="box">
+    <img src="images/user3.png" alt="">
+    <h3>Barbarous Tonally</h3>
+    <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p class="text">
+     Dr.Nour always takes his time with us, has great bedside manner and I never have to wait long for an appointment.
+      She is very thorough & caring. It is very helpful to be able to get an appointment when you have an emergency.
+    </p>
+
+    </div>
+    
+    <div class="box">
+    <img src="images/user9.png" alt="">
+    <h3>Meray kareem</h3>
+    <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p class="text">
+      Dr.Malak is a godsend. she’s a very patient person who genuinely cares about his patients. she always takes the time to explain things to me in terms that I can understand. She’s diligent in making sure my health is the best it can be. The entire staff is wonderful. I would recommend Dr.Malak to anyone seeking a kind, compassionate, and brilliant doctor
+    </p>
+    </div>
+    
+    <div class="box">
+    <img src="images/user4.png" alt="">
+    <h3>Farah Abdo</h3>
+    <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p class="text">
+      Best family doctor ever. We are treated like family. You are not just a number. Amazing staff, they do anything and everything to help you and get you the best care. We love this doctor and her staff!!!
+    </p>
+    </div>
+
+    <div class="box">
+    <img src="images/user6.png" alt="">
+    <h3>Goliana Albert</h3>
+    <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p class="text">
+    Brilliant physician; extremely knowledgeable with insurance providers; quite personable; his staff is amazing.
+      If you need a great Dr to help you with your health and wellness do yourself a favor and meet this staff.
+    </p>
+    </div>
+    
+    <div class="box">
+    <img src="images/user3.png" alt="">
+    <h3>Bareesh Haphas</h3>
+    <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p class="text">
+      I have been seeing this doctor for a few years now. She has always been professional, knowledgeable and very understanding. She takes time to answer questions and provide as much information as possible to ensure I understand what is going on and what the next steps should be. Highly recommend!
+    </p>
+    </div>
+    
+    <div class="box">
+    <img src="images/user8.png" alt="">
+    <h3>Sara Elmahdy</h3>
+    <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p class="text">
+      I’ve been seeing this doctor for the past 5 years and he has been great. He listens, is up to date on the latest treatment approaches, and always has an open mind. I feel very comfortable in his care and would recommend him to anyone who needs a doctor.
+    </p>
+    </div>
+    
+    <div class="box">
+    <img src="images/user5.png" alt="">
+    <h3>Selia Amgad</h3>
+    <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p class="text">
+      This doctor is incredible! She is kind and compassionate, with excellent communication skills. I love that she is so knowledgeable and makes sure I understand every step of my diagnosis and treatment. I always feel my concerns are heard and she takes her time with appointments. Highly recommend this doctor!
+    </p>
+    </div>
+
+    <div class="box">
+    <img src="images/user9.png" alt="">
+    <h3>Leli Tamer</h3>
+    <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p class="text">
+      I’ve been seeing this doctor for years and he is absolutely fantastic. He is a great listener, knowledgeable, and willing to come up with the best treatment plan for me. He takes time to explain things in detail and always puts my health first. Would highly recommend this doctor!
+    </p>
+    </div>
+    
+    <div class="box">
+    <img src="images/user7.png" alt="">
+    <h3>Feri Fady</h3>
+    <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p class="text">
+      The level of care I have received from my physician has been outstanding. She is knowledgeable, patient, and genuinely cares about my well-being. I feel lucky to have found a doctor who treats me as a person, not just a patient.
+    </p>
+    </div>
+    
+    <div class="box">
+    <img src="images/user1.png" alt="">
+    <h3>Eyad Eldeen</h3>
+    <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p class="text">
+      I can’t thank my doctor enough for his expert care. He’s thorough, compassionate, and always ready to listen. His ability to explain complex medical terms in simple, understandable language is a blessing. I trust him completely with my health care.
+    </p>
+    </div>
+    
+    <div class="box">
+    <img src="images/user2.png" alt="">
+    <h3>Asser Hagag</h3>
+    <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p class="text">
+      My doctor is exceptional. Her approach is not just about treating the symptoms but understanding the root cause. Her empathy and understanding make every visit comforting. She’s not just a great doctor, but a true ally in my health journey.
+    </p>
+    </div>
+
+    <div class="box">
+        <img src="images/user4.png" alt="">
+        <h3>Gellan mark</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p class="text">
+          Our pediatrician is a gem. She has a fantastic rapport with my children and makes them feel comfortable even during sick visits. Her expertise and warm demeanor have made a huge difference in our children’s healthcare experience.
+        </p>
+        </div>
+
+        
+    </section><!--end of review section -->
+      
+<section class="why-reviews">
+
+<h2 class="heading">
+Why <span>Patients Trust Us</span>
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<i class="fa-solid fa-user-doctor"></i>
+
+<h3>Expert Doctors</h3>
+
+<p>
+Highly qualified specialists delivering exceptional healthcare.
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-heart-pulse"></i>
+
+<h3>Compassionate Care</h3>
+
+<p>
+Every patient is treated with respect, empathy and dedication.
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-hospital"></i>
+
+<h3>Modern Facilities</h3>
+
+<p>
+State-of-the-art medical technology for accurate diagnosis.
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-clock"></i>
+
+<h3>24/7 Service</h3>
+
+<p>
+Emergency services available any time you need us.
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-shield-heart"></i>
+
+<h3>Safe Environment</h3>
+
+<p>
+Highest standards of safety and infection control.
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-hand-holding-heart"></i>
+
+<h3>Patient First</h3>
+
+<p>
+Your comfort and recovery are always our highest priority.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="review-cta">
+
+<h2>
+Share Your Experience
+</h2>
+
+<p>
+
+Your feedback helps us improve our services and inspire confidence in future patients.
+
+</p>
+
+<a href="contact.html" class="btn">
+
+<i class="fa-solid fa-pen"></i>
+
+Write a Review
+
+</a>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+    
+<!-- footer starts -->
+<footer class="site-footer">
+  <div class="footer-container">
+
+    <div class="footer-col">
+      <h3>DragonFly Hospital</h3>
+      <p>Providing high-quality healthcare, experienced doctors and advanced medical technology, available around the clock for our community.</p>
+    </div>
+
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="departments.html">Departments</a></li>
+        <li><a href="doctors.html">Doctors</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Contact Us</h3>
+      <ul>
+        <li><i class="fa-solid fa-location-dot"></i> 123 Main Street, Cairo, Egypt</li>
+        <li><i class="fa-solid fa-phone"></i> Emergency: 16452</li>
+        <li><i class="fa-solid fa-envelope"></i> info@dragonflyhospital.com</li>
+        <li><i class="fa-solid fa-clock"></i> Open 24/7</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Follow Us</h3>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook"><i class="bx bxl-facebook-circle"></i></a>
+        <a href="#" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+        <a href="#" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 DragonFly Hospital. All rights reserved.</p>
+    <span onclick="topp()" id="btn" class="fa-regular fa-circle-up" aria-label="Back to top" role="button" tabindex="0"></span>
+  </div>
+</footer>
+<!-- footer ends -->
+    </div> <!--end of container div -->
+
+<script>
+let rev =document.getElementById('rev');
+let btn =document.getElementById('btn');
+
+function topp() {
+scroll({top:0,behavior: 'smooth'})
+}
+function toggleMenu(){
+    document.querySelector(".navbar ul").classList.toggle("active");
+}
+</script>
+</body>
+</html>
