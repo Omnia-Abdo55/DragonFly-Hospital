@@ -60,15 +60,6 @@ DragonFly-Hospital/
 
 ## 🚀 Live Demo
 
-You can view the project here:
-
-**(Add your GitHub Pages link here)**
-
-Example:
-
-```
-https://username.github.io/DragonFly-Hospital/
-```
 
 ---
 
